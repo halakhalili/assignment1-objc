@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EFDA22260BD66A0051948A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA21260BD66A0051948A /* main.m */; };
+		38EFDA5D260BDA2E0051948A /* MCCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA48260BDA2D0051948A /* MCCircle.m */; };
+		38EFDA5E260BDA2E0051948A /* MCEllipse.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA49260BDA2D0051948A /* MCEllipse.m */; };
+		38EFDA5F260BDA2E0051948A /* MCRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA4C260BDA2D0051948A /* MCRectangle.m */; };
+		38EFDA60260BDA2E0051948A /* MCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA4D260BDA2D0051948A /* MCColor.m */; };
+		38EFDA61260BDA2E0051948A /* MCPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA4E260BDA2D0051948A /* MCPolygon.m */; };
+		38EFDA62260BDA2E0051948A /* MCPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA52260BDA2D0051948A /* MCPoint.m */; };
+		38EFDA63260BDA2E0051948A /* MCTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA54260BDA2D0051948A /* MCTriangle.m */; };
+		38EFDA64260BDA2E0051948A /* MCSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA5B260BDA2D0051948A /* MCSquare.m */; };
+		38EFDA65260BDA2E0051948A /* MCLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFDA5C260BDA2D0051948A /* MCLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38EFDA1C260BD66A0051948A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38EFDA1E260BD66A0051948A /* Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EFDA21260BD66A0051948A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38EFDA3D260BD74E0051948A /* Moveable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Moveable.h; path = ../Classes/Moveable.h; sourceTree = "<group>"; };
+		38EFDA48260BDA2D0051948A /* MCCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCircle.m; sourceTree = "<group>"; };
+		38EFDA49260BDA2D0051948A /* MCEllipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEllipse.m; sourceTree = "<group>"; };
+		38EFDA4A260BDA2D0051948A /* MCEllipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEllipse.h; sourceTree = "<group>"; };
+		38EFDA4B260BDA2D0051948A /* MCRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRectangle.h; sourceTree = "<group>"; };
+		38EFDA4C260BDA2D0051948A /* MCRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRectangle.m; sourceTree = "<group>"; };
+		38EFDA4D260BDA2D0051948A /* MCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCColor.m; sourceTree = "<group>"; };
+		38EFDA4E260BDA2D0051948A /* MCPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPolygon.m; sourceTree = "<group>"; };
+		38EFDA4F260BDA2D0051948A /* MCCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCircle.h; sourceTree = "<group>"; };
+		38EFDA50260BDA2D0051948A /* MCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCColor.h; sourceTree = "<group>"; };
+		38EFDA51260BDA2D0051948A /* MCLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLine.h; sourceTree = "<group>"; };
+		38EFDA52260BDA2D0051948A /* MCPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPoint.m; sourceTree = "<group>"; };
+		38EFDA53260BDA2D0051948A /* MCSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSquare.h; sourceTree = "<group>"; };
+		38EFDA54260BDA2D0051948A /* MCTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTriangle.m; sourceTree = "<group>"; };
+		38EFDA55260BDA2D0051948A /* MCPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPolygon.h; sourceTree = "<group>"; };
+		38EFDA56260BDA2D0051948A /* MCShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCShape.h; sourceTree = "<group>"; };
+		38EFDA57260BDA2D0051948A /* MCTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTriangle.h; sourceTree = "<group>"; };
+		38EFDA58260BDA2D0051948A /* MCPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPoint.h; sourceTree = "<group>"; };
+		38EFDA5A260BDA2D0051948A /* Closedshape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Closedshape.h; sourceTree = "<group>"; };
+		38EFDA5B260BDA2D0051948A /* MCSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSquare.m; sourceTree = "<group>"; };
+		38EFDA5C260BDA2D0051948A /* MCLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EFDA1B260BD66A0051948A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EFDA15260BD66A0051948A = {
+			isa = PBXGroup;
+			children = (
+				38EFDA20260BD66A0051948A /* Assignment */,
+				38EFDA1F260BD66A0051948A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38EFDA1F260BD66A0051948A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EFDA1E260BD66A0051948A /* Assignment */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EFDA20260BD66A0051948A /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				38EFDA47260BD80C0051948A /* Protocols */,
+				38EFDA28260BD72B0051948A /* Classes */,
+				38EFDA21260BD66A0051948A /* main.m */,
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		38EFDA28260BD72B0051948A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38EFDA5A260BDA2D0051948A /* Closedshape.h */,
+				38EFDA4F260BDA2D0051948A /* MCCircle.h */,
+				38EFDA48260BDA2D0051948A /* MCCircle.m */,
+				38EFDA50260BDA2D0051948A /* MCColor.h */,
+				38EFDA4D260BDA2D0051948A /* MCColor.m */,
+				38EFDA4A260BDA2D0051948A /* MCEllipse.h */,
+				38EFDA49260BDA2D0051948A /* MCEllipse.m */,
+				38EFDA51260BDA2D0051948A /* MCLine.h */,
+				38EFDA5C260BDA2D0051948A /* MCLine.m */,
+				38EFDA58260BDA2D0051948A /* MCPoint.h */,
+				38EFDA52260BDA2D0051948A /* MCPoint.m */,
+				38EFDA55260BDA2D0051948A /* MCPolygon.h */,
+				38EFDA4E260BDA2D0051948A /* MCPolygon.m */,
+				38EFDA4B260BDA2D0051948A /* MCRectangle.h */,
+				38EFDA4C260BDA2D0051948A /* MCRectangle.m */,
+				38EFDA56260BDA2D0051948A /* MCShape.h */,
+				38EFDA53260BDA2D0051948A /* MCSquare.h */,
+				38EFDA5B260BDA2D0051948A /* MCSquare.m */,
+				38EFDA57260BDA2D0051948A /* MCTriangle.h */,
+				38EFDA54260BDA2D0051948A /* MCTriangle.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		38EFDA47260BD80C0051948A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				38EFDA3D260BD74E0051948A /* Moveable.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EFDA1D260BD66A0051948A /* Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EFDA25260BD66A0051948A /* Build configuration list for PBXNativeTarget "Assignment" */;
+			buildPhases = (
+				38EFDA1A260BD66A0051948A /* Sources */,
+				38EFDA1B260BD66A0051948A /* Frameworks */,
+				38EFDA1C260BD66A0051948A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment;
+			productName = assignment;
+			productReference = 38EFDA1E260BD66A0051948A /* Assignment */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EFDA16260BD66A0051948A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Najah Uni.";
+				TargetAttributes = {
+					38EFDA1D260BD66A0051948A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 38EFDA19260BD66A0051948A /* Build configuration list for PBXProject "Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EFDA15260BD66A0051948A;
+			productRefGroup = 38EFDA1F260BD66A0051948A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EFDA1D260BD66A0051948A /* Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EFDA1A260BD66A0051948A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EFDA61260BDA2E0051948A /* MCPolygon.m in Sources */,
+				38EFDA5E260BDA2E0051948A /* MCEllipse.m in Sources */,
+				38EFDA5F260BDA2E0051948A /* MCRectangle.m in Sources */,
+				38EFDA64260BDA2E0051948A /* MCSquare.m in Sources */,
+				38EFDA62260BDA2E0051948A /* MCPoint.m in Sources */,
+				38EFDA22260BD66A0051948A /* main.m in Sources */,
+				38EFDA63260BDA2E0051948A /* MCTriangle.m in Sources */,
+				38EFDA5D260BDA2E0051948A /* MCCircle.m in Sources */,
+				38EFDA60260BDA2E0051948A /* MCColor.m in Sources */,
+				38EFDA65260BDA2E0051948A /* MCLine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38EFDA23260BD66A0051948A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38EFDA24260BD66A0051948A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38EFDA26260BD66A0051948A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38EFDA27260BD66A0051948A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EFDA19260BD66A0051948A /* Build configuration list for PBXProject "Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EFDA23260BD66A0051948A /* Debug */,
+				38EFDA24260BD66A0051948A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EFDA25260BD66A0051948A /* Build configuration list for PBXNativeTarget "Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EFDA26260BD66A0051948A /* Debug */,
+				38EFDA27260BD66A0051948A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EFDA16260BD66A0051948A /* Project object */;
+}
